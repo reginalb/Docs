@@ -1,1 +1,95 @@
-.DS_Store
+parse-docs
+
+# .NET specific ignores
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.docstates
+_ReSharper*/
+*.ReSharper
+*.DotSettings.user
+*.sln.cache
+*.log
+*.vspscc
+*.vssscc
+.builds/
+TestResults/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.pdb
+*.dll
+*.exe
+*.tlb
+*.lib
+*.sbr
+*.bsc
+*.ilk
+*.meta
+*.obj
+*.pch
+*.res
+*.tmp
+*.rsp
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+*.vssscc
+.builds
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Docker
+.dockerignore
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
